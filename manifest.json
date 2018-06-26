@@ -1,0 +1,12 @@
+{
+    "name" : "VCF Import",
+    "description" : "Import variants, samples and annotations from vcf files",
+    "version": "1.0",
+    "type": "importer",
+    "contacts" : ["Olivier Gueudelot"],
+    "regovar_db_access": true,
+    "inputs" : "/data/",
+    "outputs" : "/outputs/",
+    "databases": "/tmp/regovar_db/",
+    "logs" : "/tmp/regovar_logs/"
+}
